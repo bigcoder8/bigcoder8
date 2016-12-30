@@ -1007,6 +1007,29 @@ a.article-title:hover {
   height: 100%;
   margin-top: 0;
 }
+.article_social {
+  margin-bottom: 10px;
+}
+.article_social .article_like {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+}
+.article_social .article_like .circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #fff;
+  outline: 0 none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+  -ms-tap-highlight-color: rgba(0,0,0,0);
+  tap-highlight-color: rgba(0,0,0,0);
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #dedede;
+  background: url("social_share.png") 0 -80px no-repeat;
+}
 .article-more-link a {
   display: inline-block;
   line-height: 1em;
